@@ -77,6 +77,7 @@ export default function Home() {
 
   useEffect(() => {
     getRestoList();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pickRating]);
 
   return (

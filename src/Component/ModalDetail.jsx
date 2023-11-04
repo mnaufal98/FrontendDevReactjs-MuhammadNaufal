@@ -2,7 +2,7 @@ import { Modal } from 'flowbite-react';
 import urlAPI from '../Support/Constant/urlAPI';
 import Rating from 'react-rating';
 import { BsStar, BsStarFill } from 'react-icons/bs';
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import { IoIosArrowDown } from 'react-icons/io';
 
 export default function ModalDetail(props) {
   return (
